@@ -20,11 +20,10 @@ f_dent = np.concatenate((np.linspace(0,1,int(F_SIZE / 2)),np.linspace(1,0,int(F_
 f_sin = np.sin(np.linspace(0,np.pi,F_SIZE))
 print(f_sin)
 # double dent like this: --'\,---
-#f_2dent = np.concatenate((np.array([0,0.5]),np.linspace(1,-1,int(F_SIZE / 2)),np.array([-0.5,0])))
 f_2dent = np.concatenate((np.linspace(0,1,int(F_SIZE / 4)),np.linspace(1,-1,int(F_SIZE / 2)),np.linspace(-1,0,int(F_SIZE / 4))))
 
 print(f_2dent)
-#exit()
+
 
 # labels
 y = np.ones(COUNT)
@@ -63,7 +62,7 @@ torch.save(x, open('time_series_x_100x.pt', 'wb'))
 torch.save(y, open('time_series_y_100x.pt', 'wb'))
 
 print(x[0])
-exit()
+
 
 
 
