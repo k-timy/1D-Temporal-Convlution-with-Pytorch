@@ -1,7 +1,7 @@
 # Author: Cyrus
 # Aug 2019
 #
-# here is a useful link for ref: https://blog.algorithmia.com/convolutional-neural-nets-in-pytorch/
+# This code is derived from this blog's code: https://blog.algorithmia.com/convolutional-neural-nets-in-pytorch/
 
 
 from __future__ import print_function
