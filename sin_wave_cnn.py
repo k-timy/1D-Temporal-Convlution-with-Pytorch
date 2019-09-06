@@ -94,7 +94,6 @@ def trainNet(net, batch_size, n_epochs, learning_rate,inputX,responseY):
     train_loader = T.utils.data.DataLoader(dataset[0:400] + dataset[500:900], batch_size=batch_size,
                                                sampler=train_sampler)
     test_loader = T.utils.data.DataLoader(dataset[400:500] + dataset[900:], batch_size=batch_size, sampler=test_sampler)
-    #val_loader = torch.utils.data.DataLoader(train_set, batch_size=128, sampler=val_sampler, num_workers=2)
 
     # Print all of the hyperparameters of the training iteration:
     print("===== HYPERPARAMETERS =====")
