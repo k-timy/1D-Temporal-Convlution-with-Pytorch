@@ -9,8 +9,8 @@ This code generates two types of simple signals.
 Class 0: One type consists of random noise and one sharp dent heading up and one soft dent heading down in random places.
 Class 1: And the other type, consists of two sharp dents next to each other.
 
-The two files will be created:
-time_series_x_100x.pt
+The two files will be created:\
+time_series_x_100x.pt\
 time_series_y_100x.pt
 
 The file time_series_x_100x.pt includes 1000 sequences of size 1000. Half of which is class 0 and the other half is class 1.
