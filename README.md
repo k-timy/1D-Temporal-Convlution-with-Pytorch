@@ -5,7 +5,11 @@ In order to train the 1D CNN on data, you need to first create the files of sign
 
 python gen_time_serie_for_cnn.py
 
-Then two files will be created:
+This code generates two types of simple signals.
+Class 0: One type consists of random noise and one sharp dent heading up and one soft dent heading down in random places.
+Class 1: And the other type, consists of two sharp dents next to each other.
+
+The two files will be created:
 time_series_x_100x.pt
 time_series_y_100x.pt
 
